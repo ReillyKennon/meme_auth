@@ -10,6 +10,7 @@ target 'meme_auth' do
   pod 'Firebase/Auth'
   pod 'FirebaseUI/Auth'
   pod 'FirebaseUI/Facebook'
+  pod 'Firebase/Database'
   
   target 'meme_authTests' do
     inherit! :search_paths
